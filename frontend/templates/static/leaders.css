@@ -1,0 +1,43 @@
+body {
+    font-family: "Nunito", sans-serif;
+    background-image: url("img/backgroung.jpg");
+    background-color: black;
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    border-radius: 100px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#user-list {
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin-left: 4%;
+    font-size: 50px;
+}

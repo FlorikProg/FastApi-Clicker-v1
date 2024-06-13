@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: black;
+    background-image: url("img/backgroung.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    backdrop-filter: blur(3px);
+}
+
+h1 {
+    font-family: "Nunito", sans-serif;
+    color: white;
+    font-size: 50px;
+}
+

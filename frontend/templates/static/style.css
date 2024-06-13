@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.container {
+    background-color: #444;
+    padding-left: 50px;
+    padding-right: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Установите максимальную ширину */
+
+}
+
+h1 {
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 35px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ddd;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    outline: none;
+    font-family: Arial, sans-serif;
+}
+.form-group button {
+    width: 110%;
+    
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: gold;
+    color: #000000;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    transition: 0.5s;
+    background-color: rgb(160, 136, 0);
+
+}
