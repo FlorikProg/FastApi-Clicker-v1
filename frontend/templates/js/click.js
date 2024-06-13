@@ -43,7 +43,7 @@ function doAction() {
     const jwt_token = getCookie('jwtToken');
 
     // Отправляем запрос на бэкенд
-    fetch('https://fastapi-florikprogflick.amvera.io/addclick?jwt=' + jwt_token + '&clicks=' + clicks, {
+    fetch('https://localhost/addclick?jwt=' + jwt_token + '&clicks=' + clicks, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
