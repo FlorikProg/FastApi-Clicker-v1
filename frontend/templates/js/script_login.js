@@ -13,7 +13,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     };
 
     // Отправляем данные на API с помощью fetch
-    fetch('https://fastapi-florikprogflick.amvera.io/login', {
+    fetch('https://localhost/login', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -36,7 +36,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
           // Пример использования
         let jwtToken = data
         setCookie("jwtToken", jwtToken, 1);
-        window.location.replace("http://127.0.0.1:5500/frontend/templates"); 
+        window.location.replace("path to redirect"); 
     })
     .catch((error) => {
         console.error('Ошибка:', error);
