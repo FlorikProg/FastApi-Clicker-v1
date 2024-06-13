@@ -13,7 +13,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     };
 
     // Отправляем данные на API 
-    fetch('https://fastapi-florikprogflick.amvera.io/register', {
+    fetch('https://localhost/register', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
