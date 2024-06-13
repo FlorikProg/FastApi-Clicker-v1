@@ -9,7 +9,6 @@ from auth.schemes import *
 from fastapi import Depends
 from sqlalchemy.orm import Session
 from auth.jwt_uncode import *
-from logic.add_click import add_click
 from typing import List
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
 from sqlalchemy.future import select
