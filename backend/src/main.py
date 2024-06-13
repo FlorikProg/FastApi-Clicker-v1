@@ -16,7 +16,7 @@ from sqlalchemy.future import select
 
 from sqlalchemy.orm import sessionmaker
 
-SECRET_KEY = "floriksecret"
+SECRET_KEY = ""
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 800
 
