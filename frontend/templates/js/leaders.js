@@ -1,6 +1,6 @@
 // Функция для отправки запроса на сервер и обновления списка пользователей
 function updateUserList() {
-    fetch('https://fastapi-florikprogflick.amvera.io/all_users')
+    fetch('https://localhost/all_users')
         .then(response => response.json())
         .then(data => {
             const userList = document.getElementById('user-list');
